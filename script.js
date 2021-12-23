@@ -105,7 +105,7 @@ function dragended() {
 function render() {
   context.clearRect(0, 0, width, height);
   fill(water, colorWater);
-  stroke(graticule, colorGraticule);
+  // stroke(graticule, colorGraticule);
   fill(land, colorLand);
   if (currentCountry) {
     fill(currentCountry, colorCountry);
